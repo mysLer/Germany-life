@@ -10,9 +10,15 @@
     
 }
 a {text-decoration: none;
+    transition: 250ms all;
 
 }
-
+a:active {color: red}
+a:visited {color: pink}
+a:hover {
+    font-size: x-large;
+    color: black;
+}
 
 ul.menu {
     background: black;
